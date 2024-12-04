@@ -1,11 +1,11 @@
 # Resumen-Sistemas
 
-¿Que es un Sistema operativo?
+# ¿Que es un Sistema operativo?
 
 Un sistema operativo es un software que actúa como intermediario entre los usuarios y el hardware de una computadora. 
 Su función principal es gestionar los recursos del sistema (como el procesador, la memoria y el almacenamiento) y proporcionar una interfaz para que las personas interactúen con la computadora.
 
-Historia, generaciones y evolucion de los sistemas operativos
+# Historia, generaciones y evolucion de los sistemas operativos
 
 Historia y generaciones:
 
@@ -43,7 +43,7 @@ Nivel de servicios: Proporciona herramientas y servicios para ejecutar programas
 Nivel del núcleo (kernel): Gestiona los recursos del hardware y el software.
 Nivel del hardware: Interacción directa con los componentes físicos de la computadora.
 
-3. ¿Qué hace un administrador de sistemas?
+# 3. ¿Qué hace un administrador de sistemas?
 
 Un administrador de sistemas es responsable de:
 
@@ -54,7 +54,7 @@ Un administrador de sistemas es responsable de:
 + Actualizar software y hardware.
 + Resolver problemas técnicos.
 
-4. Servicios del sistema operativo
+# 4. Servicios del sistema operativo
 
 Los sistemas operativos proporcionan servicios como:
 
@@ -69,3 +69,39 @@ Los sistemas operativos proporcionan servicios como:
 5- Seguridad: Autenticación y protección de datos.
 
 6- Interfaz de usuario: GUI o CLI para interactuar con el sistema.
+
+# 5. Dispositivos de entrada, salida y mixtos
+
+Entrada: Capturan datos del usuario o del entorno. Ej.: Teclado, ratón, micrófono, escáner.
+
+Salida: Presentan datos al usuario. Ej.: Monitor, impresora, altavoces.
+
+Mixtos: Funcionan como entrada y salida. Ej.: Pantallas táctiles, unidades USB.
+
+# 6. Manipulación de archivos y directorios
+
+Operaciones comunes:
+
++ Crear archivos/directorios: touch archivo.txt, mkdir carpeta
++ Leer contenido: cat archivo.txt
++ Copiar archivos: cp origen destino
++ Mover archivos: mv origen destino
++ Eliminar: rm archivo.txt, rmdir carpeta
++ Cambiar permisos: chmod 755 archivo
+
+# 7. Comandos UNIX con ejemplos
+1- Navegación:
++ pwd: Muestra el directorio actual.
++ ls: Lista archivos en un directorio.
+2- Gestión de archivos y directorios:
++ mkdir nueva_carpeta: Crear una carpeta.
++ rm archivo.txt: Eliminar un archivo.
+3- Permisos:
++ chmod 755 script.sh: Cambiar permisos.
+4- Procesos:
++ps: Ver procesos en ejecución.
++kill 1234: Terminar un proceso.
+5- Búsqueda:
++ find /ruta -name "archivo.txt": Buscar un archivo.
+6- Redirección:
++ ls > lista.txt: Redirigir salida a un archivo.
