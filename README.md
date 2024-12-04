@@ -126,6 +126,95 @@ Comandos básicos:
 + Insertar texto: Presiona i para ingresar al modo de inserción.
 + Guardar y salir: :wq
 + Salir sin guardar: :q!
-+ + Navegar:
++ Navegar:
   - h: Izquierda, l: Derecha, j: Abajo, k: Arriba.
 + Buscar texto: /palabra
+
+9. Administración de la protección y seguridad en un sistema operativo
+
+Un sistema operativo asegura la protección y seguridad de los datos y recursos a través de:
+
+1- Autenticación: Verifica la identidad del usuario (contraseñas, biometría).
+2- Autorización: Controla el acceso basado en permisos.
+3- Encriptación: Protege los datos almacenados o transmitidos.
+4- Control de acceso: Usa listas de control de acceso (ACL) para permisos.
+5- Cortafuegos: Previene conexiones no autorizadas.
+6- Actualizaciones y parches: Corrige vulnerabilidades.
+
+# 10. Leer el estado del sistema (Administrador de tareas y comandos UNIX equivalentes)
+
+En Windows:
++ Administrador de tareas: Presiona Ctrl + Shift + Esc para monitorear procesos, CPU,
+  RAM y red.
+
+En UNIX/Linux (equivalentes):
++ top: Muestra procesos en ejecución y uso de recursos.
++ htop: Versión interactiva de top.
++ free -h: Muestra memoria usada/libre.
++ df -h: Espacio en disco.
++ ps aux: Lista procesos en detalle.
+
+
+# 11. Sistema de Control de Versiones
+
+Un Sistema de Control de Versiones (VCS) es una herramienta que registra los cambios realizados en archivos a lo largo del tiempo, facilitando la colaboración y el seguimiento de versiones.
+
+Tipos:
+
++ Centralizado (CVCS): Un repositorio central (ej.: Subversion).
++ Distribuido (DVCS): Cada usuario tiene una copia completa del historial (ej.: Git).
+
+Beneficios:
+
++ Colaboración eficiente.
++ Seguimiento de cambios.
++ Reversión a versiones anteriores.
+
+
+# 12. GIT: Comandos básicos explicados con ejemplos
+Git es un DVCS popular para gestionar código fuente.
+
++ Configuración inicial:
+- git config --global user.name "Tu Nombre"
+- git config --global user.email "tuemail@example.com"
+
+Comandos esenciales:
+
+1) Iniciar repositorio:
++ git init: Crea un repositorio en el directorio actual.
+
+2) Seguimiento de archivos:
++ git add archivo.txt: Agrega un archivo al área de preparación.
+
+3) Guardar cambios:
++ git commit -m "Mensaje del commit": Confirma los cambios.
+
+4) Historial:
++ git log: Muestra el historial de commits.
+
+5) Ramas:
++ git branch: Lista ramas.
++ git checkout -b nueva_rama: Crea y cambia a una nueva rama.
+
+6) Fusionar ramas:
++ git merge rama: Fusiona otra rama en la actual.
+
+7) Repositorio remoto:
++ git clone URL: Clona un repositorio remoto.
++ git push origin main: Sube cambios al servidor remoto.
++ git pull: Obtiene cambios del servidor remoto.
+
+# 13. ¿Qué es un proceso?
+Un proceso es una instancia de un programa en ejecución. Incluye el código del programa, su estado y los recursos asignados (CPU, memoria, archivos).
+
+Estados de un proceso:
+
+1- Nuevo: Se está creando.
+2- Listo: Espera para ser ejecutado.
+3- Ejecución: Se está ejecutando en la CPU.
+4- Bloqueado: Espera recursos (E/S).
+5- Terminado: Ha finalizado su ejecución.
+
++Ejemplos:
+- Abrir un navegador es un proceso.
+- Cada pestaña en un navegador puede ser un subproceso.
