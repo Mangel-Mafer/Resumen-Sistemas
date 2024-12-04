@@ -5,7 +5,10 @@
 Un sistema operativo es un software que actúa como intermediario entre los usuarios y el hardware de una computadora. 
 Su función principal es gestionar los recursos del sistema (como el procesador, la memoria y el almacenamiento) y proporcionar una interfaz para que las personas interactúen con la computadora.
 
-# Historia, generaciones y evolucion de los sistemas operativos
+![image](https://github.com/user-attachments/assets/f6fe4039-9b42-4ea9-ba2a-c4e234212bbf)
+
+
+# 2- Historia, generaciones y evolucion de los sistemas operativos
 
 Historia y generaciones:
 
@@ -43,6 +46,9 @@ Nivel de servicios: Proporciona herramientas y servicios para ejecutar programas
 Nivel del núcleo (kernel): Gestiona los recursos del hardware y el software.
 Nivel del hardware: Interacción directa con los componentes físicos de la computadora.
 
+![image](https://github.com/user-attachments/assets/2b77a818-0771-42de-b41f-7b19cabdc7b5)
+
+
 # 3. ¿Qué hace un administrador de sistemas?
 
 Un administrador de sistemas es responsable de:
@@ -77,6 +83,9 @@ Entrada: Capturan datos del usuario o del entorno. Ej.: Teclado, ratón, micróf
 Salida: Presentan datos al usuario. Ej.: Monitor, impresora, altavoces.
 
 Mixtos: Funcionan como entrada y salida. Ej.: Pantallas táctiles, unidades USB.
+
+![image](https://github.com/user-attachments/assets/44b5230e-eec3-4e8c-81b8-2c0e8027768d)
+
 
 # 6. Manipulación de archivos y directorios
 
