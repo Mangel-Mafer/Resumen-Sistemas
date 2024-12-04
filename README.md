@@ -110,3 +110,22 @@ Operaciones comunes:
   
 6- Redirección:
 + ls > lista.txt: Redirigir salida a un archivo.
+
+# 8. VIM: Introducción y comandos básicos
+
+VIM (Vi IMproved) es un editor de texto avanzado que se utiliza en sistemas UNIX/Linux. Es una versión mejorada de vi con características adicionales como resaltado de sintaxis.
+
+Modos en VIM:
+
+1- Modo comando: Navegar y ejecutar comandos (por defecto).
+2- Modo inserción: Editar texto (i para entrar, Esc para salir).
+3- Modo línea de comandos: Ejecutar comandos (: seguido de un comando).
+
+Comandos básicos:
++ Abrir un archivo: vim archivo.txt
++ Insertar texto: Presiona i para ingresar al modo de inserción.
++ Guardar y salir: :wq
++ Salir sin guardar: :q!
++ + Navegar:
+  - h: Izquierda, l: Derecha, j: Abajo, k: Arriba.
++ Buscar texto: /palabra
