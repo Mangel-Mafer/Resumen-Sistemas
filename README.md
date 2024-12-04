@@ -180,8 +180,8 @@ Beneficios:
 Git es un DVCS popular para gestionar código fuente.
 
 + Configuración inicial:
-- git config --global user.name "Tu Nombre"
-- git config --global user.email "tuemail@example.com"
+- git config --global user.name "Nombre"
+- git config --global user.email "email@email.com"
 
 Comandos esenciales:
 
