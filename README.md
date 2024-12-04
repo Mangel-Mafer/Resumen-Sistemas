@@ -223,3 +223,116 @@ Estados de un proceso:
 + Ejemplos:
 - Abrir un navegador es un proceso.
 - Cada pestaña en un navegador puede ser un subproceso.
+
+# 14. Estado de un proceso
+
+Los estados de un proceso describen su ciclo de vida en el sistema operativo. Son los siguientes:
+
+1. Nuevo (New): El proceso está siendo creado.
+
+2. Listo (Ready): El proceso está preparado para ejecutarse, pero espera que la CPU esté libre.
+
+3. Ejecución (Running): La CPU está ejecutando las instrucciones del proceso.
+
+4. Bloqueado (Blocked): El proceso está esperando un recurso o evento, como la finalización de una operación de E/S.
+
+5. Terminado (Terminated): El proceso ha concluido su ejecución.
+
+# 15. Comandos UNIX para la administración de procesos
+Listar procesos:
++ ps: Lista los procesos actuales.
++ top: Monitorea los procesos en tiempo real.
++ htop: Versión interactiva de top.
+
+Manejar procesos:
++ kill PID: Termina un proceso específico.
++ killall nombre_proceso: Termina todos los procesos con ese nombre.
++ nice: Inicia un proceso con prioridad específica.
++ renice: Cambia la prioridad de un proceso en ejecución.
++ bg: Envía un proceso al fondo.
++ fg: Trae un proceso al frente.
+
+# 16. Planificación de procesos
+
+La planificación de procesos es una técnica para asignar CPU a los procesos según diferentes algoritmos.
+
+• FCFS (First-Come, First-Served):
+- Ordena procesos según su llegada.
+- Ventajas: Simple y fácil de implementar.
+- Desventajas: Puede causar problemas de ineficiencia como el problema del convoy.
+
+• Round Robin (RR):
+- Asigna un tiempo fijo (quantum) a cada proceso.
+- Si un proceso no termina dentro del quantum, pasa al final de la cola.
+- Ventajas: Tiempo de respuesta predecible.
+- Desventajas: Si el quantum es demasiado corto, puede generar sobrecarga.
+
+• SJF (Shortest Job First):
+- Prioriza los procesos con menor tiempo de ejecución.
+- Ventajas: Minimiza el tiempo promedio de espera.
+- Desventajas: Puede generar injusticia hacia procesos largos.
+
+# 17. Comandos adicionales
+
+Wildcards:
+
++ *: Sustituye cualquier cantidad de caracteres.
+Ej.: ls *.txt lista todos los archivos .txt.
+
++ ?: Sustituye un solo carácter.
+Ej.: ls archivo?.txt lista archivo1.txt, archivo2.txt, etc.
+
++ [ ]: Define un rango de caracteres.
+Ej.: ls archivo[1-3].txt lista archivo1.txt, archivo2.txt y archivo3.txt.
+
+- Comandos esenciales:
+
+1) Eliminar archivos:
++ rm archivo.txt: Elimina un archivo.
++ rm -r carpeta: Elimina una carpeta y su contenido.
+
+2) Mover/renombrar archivos:
++ mv archivo.txt destino/: Mueve el archivo.
++ mv viejo.txt nuevo.txt: Renombra un archivo.
+
+3) Listar archivos:
++ ls -l: Muestra detalles de los archivos.
++ ls -lh: Incluye tamaño en un formato legible.
+
+4) Obtener peso ordenado:
++ du -h --max-depth=1 | sort -h: Lista el tamaño de archivos/carpetas ordenado.
+
+# 18. Unidades de almacenamiento
+
+Las unidades de almacenamiento son dispositivos que guardan datos de manera temporal o permanente.
+
+- Tipos principales:
+1- Primarias: Memoria RAM, caché (rápida, pero volátil).
+2- Secundarias: Discos duros (HDD), unidades de estado sólido (SSD).
+3- Terciarias: Cintas magnéticas, usadas para copias de seguridad.
+4- Cuaternarias: Almacenamiento en la nube.
+
+Capacidades comunes:
++ Kilobyte (KB): 1,024 bytes.
++ Megabyte (MB): 1,024 KB.
++ Gigabyte (GB): 1,024 MB.
++ Terabyte (TB): 1,024 GB.
+
+# 19. Jerarquía de Memoria
+
+La jerarquía de memoria se basa en el equilibrio entre velocidad, tamaño y costo.
+
+1) Registros (CPU):
+Muy rápidos, pero limitados en capacidad.
+
+2) Caché:
+Almacena datos de acceso frecuente.
+
+3) RAM:
+Acceso rápido, pero volátil.
+
+4) Almacenamiento secundario:
+Discos duros y SSD (mayor capacidad, más lento).
+
+5) Almacenamiento terciario:
+Cintas y unidades externas (gran capacidad, baja velocidad).
