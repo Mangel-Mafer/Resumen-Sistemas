@@ -135,10 +135,15 @@ Comandos básicos:
 Un sistema operativo asegura la protección y seguridad de los datos y recursos a través de:
 
 1- Autenticación: Verifica la identidad del usuario (contraseñas, biometría).
+
 2- Autorización: Controla el acceso basado en permisos.
+
 3- Encriptación: Protege los datos almacenados o transmitidos.
+
 4- Control de acceso: Usa listas de control de acceso (ACL) para permisos.
+
 5- Cortafuegos: Previene conexiones no autorizadas.
+
 6- Actualizaciones y parches: Corrige vulnerabilidades.
 
 # 10. Leer el estado del sistema (Administrador de tareas y comandos UNIX equivalentes)
@@ -215,6 +220,6 @@ Estados de un proceso:
 4- Bloqueado: Espera recursos (E/S).
 5- Terminado: Ha finalizado su ejecución.
 
-+Ejemplos:
++ Ejemplos:
 - Abrir un navegador es un proceso.
 - Cada pestaña en un navegador puede ser un subproceso.
