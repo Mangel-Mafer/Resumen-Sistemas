@@ -337,67 +337,91 @@ Discos duros y SSD (mayor capacidad, más lento).
 5) Almacenamiento terciario:
 Cintas y unidades externas (gran capacidad, baja velocidad).
 
-20. Localidad Espacial y Temporal
+# 20. Localidad Espacial y Temporal
+
 La localidad espacial y temporal es un principio que describe cómo los programas acceden a datos y cómo esto afecta al rendimiento del sistema.
 
-Localidad temporal:
-Un dato recientemente accedido tiene alta probabilidad de ser accedido nuevamente pronto.
-Ejemplo: Variables en bucles.
-Localidad espacial:
-Si se accede a un dato, es probable que datos cercanos en memoria también sean accedidos.
-Ejemplo: Acceso secuencial a elementos de un arreglo.
+- Localidad temporal:
++ Un dato recientemente accedido tiene alta probabilidad de ser accedido nuevamente 
+  pronto.
++ Ejemplo: Variables en bucles.
+
+- Localidad espacial:
++ Si se accede a un dato, es probable que datos cercanos en memoria también sean 
+  accedidos.
++ Ejemplo: Acceso secuencial a elementos de un arreglo.
+
 Estas propiedades optimizan el uso de cachés y mejoran el rendimiento del sistema.
 
-21. Tipos de sistemas de archivos
+# 21. Tipos de sistemas de archivos
+
 Un sistema de archivos organiza y gestiona cómo se almacenan y acceden los datos en dispositivos de almacenamiento.
 
 Principales tipos:
-FAT32:
-Compatible con varios sistemas.
-Limitación: Archivos de hasta 4 GB.
-NTFS:
-Usado en Windows.
-Soporta grandes volúmenes, permisos avanzados y cifrado.
-ext4:
-Predeterminado en Linux.
-Rendimiento y confiabilidad mejorados.
-HFS+/APFS:
-Utilizado por macOS.
-APFS es más rápido y seguro.
-exFAT:
-Compatible con sistemas modernos, ideal para unidades USB.
-22. Virtualización
+
+1) FAT32:
++ Compatible con varios sistemas.
++ Limitación: Archivos de hasta 4 GB.
+
+2) NTFS:
++ Usado en Windows.
++ Soporta grandes volúmenes, permisos avanzados y cifrado.
+
+3) ext4:
++ Predeterminado en Linux.
++ Rendimiento y confiabilidad mejorados.
+
+4) HFS+/APFS:
++ Utilizado por macOS.
++ APFS es más rápido y seguro.
+
+5) exFAT:
++ Compatible con sistemas modernos, ideal para unidades USB.
+
+# 22. Virtualización
+
 La virtualización permite ejecutar múltiples sistemas operativos o aplicaciones en un solo hardware físico al simular recursos como CPU, memoria y almacenamiento.
 
 Tipos:
-Virtualización de hardware:
-Ej.: VMware, VirtualBox.
-Virtualización de servidor:
-Consolida servidores físicos.
-Virtualización de red:
-Divide una red física en múltiples redes virtuales.
-Ventajas:
-Ahorro de costos.
-Pruebas en entornos aislados.
-Mayor flexibilidad y escalabilidad.
-23. Concurrencia
+
+1- Virtualización de hardware:
++ Ej.: VMware, VirtualBox.
+
+2- Virtualización de servidor:
++ Consolida servidores físicos.
+
+3- Virtualización de red:
++ Divide una red física en múltiples redes virtuales.
+
+- Ventajas:
++ Ahorro de costos.
++ Pruebas en entornos aislados.
++ Mayor flexibilidad y escalabilidad.
+
+# 23. Concurrencia
+
 La concurrencia ocurre cuando múltiples tareas o procesos parecen ejecutarse simultáneamente, compartiendo recursos del sistema.
 
-Mecanismos clave:
-Hilos (Threads): Múltiples tareas dentro de un proceso.
-Bloqueos (Locks): Evitan conflictos en recursos compartidos.
-Semáforos: Controlan el acceso a recursos críticos.
-Ejemplo:
-Un servidor web maneja múltiples solicitudes de clientes concurrentemente.
+- Mecanismos clave:
++ Hilos (Threads): Múltiples tareas dentro de un proceso.
++ Bloqueos (Locks): Evitan conflictos en recursos compartidos.
++ Semáforos: Controlan el acceso a recursos críticos.
 
-24. Persistencia
+Ejemplo:
+- Un servidor web maneja múltiples solicitudes de clientes concurrentemente.
+
+# 24. Persistencia
+
 La persistencia se refiere a la capacidad de un sistema para retener datos más allá de la vida útil de un programa o proceso.
 
-Ejemplos:
-Bases de datos.
-Archivos en disco.
-Configuraciones guardadas.
-Relación con almacenamiento:
+- Ejemplos:
+
++ Bases de datos.
++ Archivos en disco.
++ Configuraciones guardadas.
+
+- Relación con almacenamiento:
+
 La persistencia depende del uso de sistemas de almacenamiento no volátiles, como discos duros o SSD.
 
 25. Lenguajes de programación a bajo nivel (C)
