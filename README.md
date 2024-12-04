@@ -93,15 +93,20 @@ Operaciones comunes:
 1- Navegación:
 + pwd: Muestra el directorio actual.
 + ls: Lista archivos en un directorio.
+  
 2- Gestión de archivos y directorios:
 + mkdir nueva_carpeta: Crear una carpeta.
 + rm archivo.txt: Eliminar un archivo.
+  
 3- Permisos:
 + chmod 755 script.sh: Cambiar permisos.
+  
 4- Procesos:
-+ps: Ver procesos en ejecución.
-+kill 1234: Terminar un proceso.
++ ps: Ver procesos en ejecución.
++ kill 1234: Terminar un proceso.
+
 5- Búsqueda:
 + find /ruta -name "archivo.txt": Buscar un archivo.
+  
 6- Redirección:
 + ls > lista.txt: Redirigir salida a un archivo.
