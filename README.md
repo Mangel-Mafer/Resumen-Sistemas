@@ -336,3 +336,114 @@ Discos duros y SSD (mayor capacidad, más lento).
 
 5) Almacenamiento terciario:
 Cintas y unidades externas (gran capacidad, baja velocidad).
+
+20. Localidad Espacial y Temporal
+La localidad espacial y temporal es un principio que describe cómo los programas acceden a datos y cómo esto afecta al rendimiento del sistema.
+
+Localidad temporal:
+Un dato recientemente accedido tiene alta probabilidad de ser accedido nuevamente pronto.
+Ejemplo: Variables en bucles.
+Localidad espacial:
+Si se accede a un dato, es probable que datos cercanos en memoria también sean accedidos.
+Ejemplo: Acceso secuencial a elementos de un arreglo.
+Estas propiedades optimizan el uso de cachés y mejoran el rendimiento del sistema.
+
+21. Tipos de sistemas de archivos
+Un sistema de archivos organiza y gestiona cómo se almacenan y acceden los datos en dispositivos de almacenamiento.
+
+Principales tipos:
+FAT32:
+Compatible con varios sistemas.
+Limitación: Archivos de hasta 4 GB.
+NTFS:
+Usado en Windows.
+Soporta grandes volúmenes, permisos avanzados y cifrado.
+ext4:
+Predeterminado en Linux.
+Rendimiento y confiabilidad mejorados.
+HFS+/APFS:
+Utilizado por macOS.
+APFS es más rápido y seguro.
+exFAT:
+Compatible con sistemas modernos, ideal para unidades USB.
+22. Virtualización
+La virtualización permite ejecutar múltiples sistemas operativos o aplicaciones en un solo hardware físico al simular recursos como CPU, memoria y almacenamiento.
+
+Tipos:
+Virtualización de hardware:
+Ej.: VMware, VirtualBox.
+Virtualización de servidor:
+Consolida servidores físicos.
+Virtualización de red:
+Divide una red física en múltiples redes virtuales.
+Ventajas:
+Ahorro de costos.
+Pruebas en entornos aislados.
+Mayor flexibilidad y escalabilidad.
+23. Concurrencia
+La concurrencia ocurre cuando múltiples tareas o procesos parecen ejecutarse simultáneamente, compartiendo recursos del sistema.
+
+Mecanismos clave:
+Hilos (Threads): Múltiples tareas dentro de un proceso.
+Bloqueos (Locks): Evitan conflictos en recursos compartidos.
+Semáforos: Controlan el acceso a recursos críticos.
+Ejemplo:
+Un servidor web maneja múltiples solicitudes de clientes concurrentemente.
+
+24. Persistencia
+La persistencia se refiere a la capacidad de un sistema para retener datos más allá de la vida útil de un programa o proceso.
+
+Ejemplos:
+Bases de datos.
+Archivos en disco.
+Configuraciones guardadas.
+Relación con almacenamiento:
+La persistencia depende del uso de sistemas de almacenamiento no volátiles, como discos duros o SSD.
+
+25. Lenguajes de programación a bajo nivel (C)
+C es un lenguaje de bajo nivel que combina control de hardware con eficiencia.
+
+Características:
+
++ Acceso directo a memoria mediante punteros.
++ Control de recursos del sistema.
++ Ideal para desarrollar sistemas operativos y software de bajo nivel.
+
+Ejemplo:
+
+![image](https://github.com/user-attachments/assets/7a68491f-c33a-4c00-afba-72f933e6aff0)
+
+
+# 26. Sistemas Operativos Móviles: Emulador de Android
+
+Un emulador de Android permite ejecutar aplicaciones de Android en una computadora simulando un dispositivo móvil.
+
+- Ejemplos de emuladores:
++ Android Studio Emulator: Herramienta oficial para desarrolladores.
++ BlueStacks: Enfocado en juegos y uso general.
+
+- Funciones:
++ Simula hardware móvil (GPS, cámara).
++ Prueba de aplicaciones en diferentes versiones de Android.
+
+# 27. Permisos de archivos en UNIX: Explicación y ejemplos con chmod
+
+En UNIX, cada archivo tiene permisos para lectura (r), escritura (w) y ejecución (x) para tres categorías:
+
+1) Usuario (u): Propietario.
+2) Grupo (g): Usuarios del grupo del propietario.
+3) Otros (o): Resto de los usuarios.
+
+- Representación de permisos:
++ rwxr-xr--: Usuario tiene todos los permisos, grupo puede leer/ejecutar, otros solo 
+  leer.
+- Uso de chmod:
++ Cambiar permisos con valores simbólicos:
+
+   + chmod u+r archivo.txt: Agrega permiso de lectura al usuario.
+   + chmod g-w archivo.txt: Quita permiso de escritura al grupo.
+
++ Cambiar permisos con valores numéricos:
+
+  + chmod 755 archivo.txt:
+  + Usuario: rwx (7), Grupo: r-x (5), Otros: r-x (5).
