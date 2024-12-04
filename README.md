@@ -2,7 +2,8 @@
 
 ¿Que es un Sistema operativo?
 
-Un sistema operativo es un software que actúa como intermediario entre los usuarios y el hardware de una computadora. Su función principal es gestionar los recursos del sistema (como el procesador, la memoria y el almacenamiento) y proporcionar una interfaz para que las personas interactúen con la computadora.
+Un sistema operativo es un software que actúa como intermediario entre los usuarios y el hardware de una computadora. 
+Su función principal es gestionar los recursos del sistema (como el procesador, la memoria y el almacenamiento) y proporcionar una interfaz para que las personas interactúen con la computadora.
 
 Historia, generaciones y evolucion de los sistemas operativos
 
@@ -58,8 +59,13 @@ Un administrador de sistemas es responsable de:
 Los sistemas operativos proporcionan servicios como:
 
 1- Gestión de procesos: Crear, planificar y finalizar procesos.
+
 2- Gestión de memoria: Asignar y liberar memoria.
+
 3- Gestión de archivos: Crear, leer, escribir y eliminar archivos.
+
 4- Gestión de dispositivos: Controlar periféricos como impresoras y discos.
+
 5- Seguridad: Autenticación y protección de datos.
+
 6- Interfaz de usuario: GUI o CLI para interactuar con el sistema.
