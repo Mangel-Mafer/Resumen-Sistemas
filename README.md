@@ -424,7 +424,7 @@ Relación con almacenamiento:
 
 La persistencia depende del uso de sistemas de almacenamiento no volátiles, como discos duros o SSD.
 
-3 25. Lenguajes de programación a bajo nivel (C)
+# 25. Lenguajes de programación a bajo nivel (C)
 
 C es un lenguaje de bajo nivel que combina control de hardware con eficiencia.
 
