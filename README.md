@@ -130,7 +130,7 @@ Comandos básicos:
   - h: Izquierda, l: Derecha, j: Abajo, k: Arriba.
 + Buscar texto: /palabra
 
-9. Administración de la protección y seguridad en un sistema operativo
+# 9. Administración de la protección y seguridad en un sistema operativo
 
 Un sistema operativo asegura la protección y seguridad de los datos y recursos a través de:
 
