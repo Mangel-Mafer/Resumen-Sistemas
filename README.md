@@ -341,12 +341,12 @@ Cintas y unidades externas (gran capacidad, baja velocidad).
 
 La localidad espacial y temporal es un principio que describe cómo los programas acceden a datos y cómo esto afecta al rendimiento del sistema.
 
-- Localidad temporal:
+Localidad temporal:
 + Un dato recientemente accedido tiene alta probabilidad de ser accedido nuevamente 
   pronto.
 + Ejemplo: Variables en bucles.
 
-- Localidad espacial:
+Localidad espacial:
 + Si se accede a un dato, es probable que datos cercanos en memoria también sean 
   accedidos.
 + Ejemplo: Acceso secuencial a elementos de un arreglo.
@@ -393,7 +393,7 @@ Tipos:
 3- Virtualización de red:
 + Divide una red física en múltiples redes virtuales.
 
-- Ventajas:
+Ventajas:
 + Ahorro de costos.
 + Pruebas en entornos aislados.
 + Mayor flexibilidad y escalabilidad.
@@ -414,17 +414,18 @@ Ejemplo:
 
 La persistencia se refiere a la capacidad de un sistema para retener datos más allá de la vida útil de un programa o proceso.
 
-- Ejemplos:
+Ejemplos:
 
 + Bases de datos.
 + Archivos en disco.
 + Configuraciones guardadas.
 
-- Relación con almacenamiento:
+Relación con almacenamiento:
 
 La persistencia depende del uso de sistemas de almacenamiento no volátiles, como discos duros o SSD.
 
-25. Lenguajes de programación a bajo nivel (C)
+3 25. Lenguajes de programación a bajo nivel (C)
+
 C es un lenguaje de bajo nivel que combina control de hardware con eficiencia.
 
 Características:
@@ -442,11 +443,11 @@ Ejemplo:
 
 Un emulador de Android permite ejecutar aplicaciones de Android en una computadora simulando un dispositivo móvil.
 
-- Ejemplos de emuladores:
+Ejemplos de emuladores:
 + Android Studio Emulator: Herramienta oficial para desarrolladores.
 + BlueStacks: Enfocado en juegos y uso general.
 
-- Funciones:
+Funciones:
 + Simula hardware móvil (GPS, cámara).
 + Prueba de aplicaciones en diferentes versiones de Android.
 
@@ -458,10 +459,10 @@ En UNIX, cada archivo tiene permisos para lectura (r), escritura (w) y ejecució
 2) Grupo (g): Usuarios del grupo del propietario.
 3) Otros (o): Resto de los usuarios.
 
-- Representación de permisos:
+Representación de permisos:
 + rwxr-xr--: Usuario tiene todos los permisos, grupo puede leer/ejecutar, otros solo 
   leer.
-- Uso de chmod:
+Uso de chmod:
 + Cambiar permisos con valores simbólicos:
 
    + chmod u+r archivo.txt: Agrega permiso de lectura al usuario.
